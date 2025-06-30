@@ -2,8 +2,21 @@
 
 ## Sample
 ### Intra-class call flow graph.
+Class-to-class references are not depicted.
+Only method node / field node accesses are the target.
+> Black node = method node
+> 
+> Blue node = field node
+![sample-class](https://github.com/user-attachments/assets/f4bd55ec-977e-4c8e-9d18-b13a643b0973)
 
 ### Inter-class call flow graph.
+Only the classes are depicted, others are omitted.
+> Green node = direct access to a class (supreclass, type cast, instanciation, ...)
+> 
+> Black node = calls the method of the class
+> 
+> Blue node = access the field of the class
+![sample-jar](https://github.com/user-attachments/assets/9e8ff3c2-ed4e-402e-a079-e23e685619b7)
 
 ## Specification
 * Supports Java >= 17.
