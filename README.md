@@ -44,11 +44,11 @@ java -jar CFGGenerator.java \
 
 | Key | Usage | Description |
 |--------|--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| mode | --mode ```{jar|class}``` | define the mode to be applied. ```jar``` for multiple classes, ```class``` for a single class. |
+| mode | --mode ```{jar or class}``` | define the mode to be applied. ```jar``` for multiple classes, ```class``` for a single class. |
 | in | --in ```{jar file path}``` | define input file, to generate CFG. |
 | out | --out ```{output directory}/output.png``` | define output file path. this must be the name with extension (.png) |
 | target | --target ```{class name or the package name}``` | define the class name or package name. when jar mode is activated, you can input the multiple package name, comma separated. |
-| anonymous | --anonymous ```{true|false}``` | define whether to include anonymous classes or not. default is false. |
+| anonymous | --anonymous ```{true or false}``` | define whether to include anonymous classes or not. default is false. |
 
 
 For more options, refer ```--help``` description.
